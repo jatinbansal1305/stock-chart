@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stock-chart/static/css/main.f855e6bc.css",
+    "main.js": "/stock-chart/static/js/main.f5476c1b.js",
+    "static/js/453.7b86e80b.chunk.js": "/stock-chart/static/js/453.7b86e80b.chunk.js",
+    "static/media/logo.svg": "/stock-chart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/stock-chart/index.html",
+    "main.f855e6bc.css.map": "/stock-chart/static/css/main.f855e6bc.css.map",
+    "main.f5476c1b.js.map": "/stock-chart/static/js/main.f5476c1b.js.map",
+    "453.7b86e80b.chunk.js.map": "/stock-chart/static/js/453.7b86e80b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f5476c1b.js"
+  ]
+}
