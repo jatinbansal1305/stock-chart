@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+I'm using a dummy JSON object for data right now, but in the real app, I’d replace this with an actual API call. To keep things reusable, I’ll handle the API calls outside of this component.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I didn't exactly match the fonts, icons, and volume chart as per the Figma design due to time constraints. The focus was on getting the functionality right first. I’m keeping the components independent, so they can be reused in different parts of the app without much change.
 
-## Available Scripts
+I used inline styles in some places for simplicity, but these could be moved to CSS files later for better management. I’ve included basic fallback components for when content isn’t available, but more detailed error handling will be added later.
 
-In the project directory, you can run:
+I applied some basic responsive design principles, but it might not cover all screen sizes perfectly right now. Components are modular, meaning each one does one specific thing, making them easier to manage.
 
-### `npm start`
+For now, I’m using useState to manage state within components. In bigger projects, I might switch to something like Redux/react query. I made sure buttons and elements have labels for accessibility, but a more thorough review is needed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I haven't added automated tests yet due to time constraints, but they should be included later to ensure everything works reliably. When integrating with an API, I’ll use useEffect for fetching data and handle errors properly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I haven't use optimisations like useMemo , useCallback , React.memo.
